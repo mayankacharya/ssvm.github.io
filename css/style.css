@@ -28,7 +28,15 @@
 #FOOTER SECTION
 #RESPONSIVE DESIGN
 */
-
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url("https://i.pinimg.com/originals/e9/5a/92/e95a921638100a6e21b3143002d05a0f.gif")
+	 no-repeat center center;	
+	z-index: 99999;
+}
 /* BASE - Base tyles, Variables, Mixins, etc. */
 body {
   background-color: #ffffff;
